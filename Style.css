@@ -1,0 +1,185 @@
+/* link que ainda não foi acessado */
+a {text-decoration: none; }
+
+#Area-head a:link, #Area-head a:visited {
+    color: #ff9915;
+    padding: 8px 12px;
+    
+ }
+ #Area-head a:hover {
+    color: #fff;
+    background: #32c2b9 ;
+    border-radius: 7px;
+ }
+ .lateral-posts a:link, .lateral-posts a:visited {
+    color: #ff9915;
+    
+    }
+
+ .lateral-posts2 a:link, .lateral-posts2 a:visited {
+    color: #ff9915;
+    padding: 1px 3px;
+
+ }
+.lateral-posts2 a:hover {
+    color: #fff;
+    background: #32c2b9 ;
+    border-radius: 7px;
+}
+ 
+
+ a:hover {
+    color: #fad928;
+    background: #32c2b9 ;
+    border-radius: 7px;
+}
+
+a:active {
+    color: #fad928;
+}
+
+ #Area-postagens a:link, #Area-postagens a:visited {
+    color: #ff9915;
+    padding: 2px 4px;
+    background-color:#00686c ;
+    border-radius: 8px;
+    
+}
+
+ #Area-postagens a:hover {
+    color: #fff;
+    background: #00686c ;
+    border-radius: 7px;
+}
+
+#Area-postagens a:active {
+    color: #fad928;
+}
+ /*Limpar Formatacao*/
+ 
+ *{
+     margin: 0;
+     padding: 0;}
+
+body {
+        font-size: 1em;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background: #32c2b9;}
+
+#Area-head { background-color:#00686c;
+            padding: 15px;
+            text-align: center;}
+ 
+ #Area-logo {
+      padding:10px ;
+}
+ 
+#Area-menu
+ {
+             padding:20px; 
+             font-weight: bold; 
+             font-size:large;
+            }
+    
+h1 {
+    color:#ff9915 ;
+    font-size: 4.5em;
+    
+}
+    
+.branco {color: #fff;}
+h2 {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: left;
+    background-color:#00686c ;
+}
+p {
+    padding-top: 15px;
+}
+h3 {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold; 
+    padding: 5px;
+    background-color:#ff9915 ;
+
+}
+.Data{
+    color: #ff9915;
+    font-weight: lighter;
+    font-size: smaller;
+    border-bottom: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+    padding-top: 3px;
+    background-color:#00686c ;
+
+}
+        
+#Area-principal {
+    width: 1080px;
+    margin: 0 auto;
+    padding: 15px;
+   
+    
+}
+#Area-postagens {
+    width: 740px;
+    float: left;
+   
+}
+
+#Area-lateral{
+    width: 320px;
+    float: right;
+    padding-top: 20px;
+    
+}
+
+#Area-lateral-postagens {
+    width: 320px;
+    float: right;
+    padding-top: 20px;
+    line-height: 30px;
+
+}
+
+#Rodape
+{
+    background: #00686c ;
+    text-align: center;
+    color: #ff9915;
+    clear: both;
+    padding: 15px;
+    margin: auto;
+
+}
+.Postagem {
+    padding: 20px;
+     background:#32c2b9 ;
+    color: white;
+}
+
+.lateral-tittle {
+    background:#00686c ;
+    padding: 10px;
+   margin-bottom: 200px;
+    margin: auto;
+}
+.lateral-posts {
+    color: white;
+    font: 0.8em;
+    padding: 05px;
+    line-height: 20px;
+    margin-bottom: 20px;
+    
+}
+.lateral-posts2 {
+    color: white;
+    font: 0.8em;
+    padding: 5px;
+    
+    
+}
